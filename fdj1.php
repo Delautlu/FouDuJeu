@@ -5,7 +5,7 @@
 <div class="banner">
     <h1 class="banner-head">
     <video autoplay="true" loop  width="600">
-        <source src="assets/img/Foudejeux.mp4" />
+        <source src="assets/img/Foudejeux.mp4"/>
     </video>
     </h1>
 </div> 
@@ -26,52 +26,41 @@
         <div class="pure-u-1 pure-u-md-1-3">
             <div class="pricing-table pricing-table-free">
                 <div class="pricing-table-header">
-                    <h2>xxxxx</h2>
-
-                    <span class="pricing-table-price">
-                    <span></span>
-                    </span>
+                    <h2>Jeux Pc</h2>
                 </div>
-            <button class="button-choose pure-button"></button>
+                <img src="assets/img/pcgamer.jpg" id="pcgamer">
             </div>
         </div>
 
         <div class="pure-u-1 pure-u-md-1-3">
-            <div class="pricing-table pricing-table-biz pricing-table-selected">
+            <div class="pricing-table pricing-table-free">
                 <div class="pricing-table-header">
-                    <h2>xxxxx</h2>
-
-                    <span class="pricing-table-price">
-                        <span></span>
-                    </span>
+                    <h2>Jeux Playstation/ Xbox</h2>   
                 </div>
-
-                <ul class="pricing-table-list">
-                   
-                </ul>
-
-                <button class="button-choose pure-button"></button>
+                <img src="assets/img/manettes2.png" id="ps4">
             </div>
         </div>
 
         <div class="pure-u-1 pure-u-md-1-3">
-            <div class="pricing-table pricing-table-enterprise">
+            <div class="pricing-table pricing-table-free">
                 <div class="pricing-table-header">
-                    <h2>xxxxx</h2>
-
-                    <span class="pricing-table-price">
-                         <span></span>
-                    </span>
+                    <h2>Jeux Switch</h2>   
                 </div>
-
-                <ul class="pricing-table-list">
-                    
-                </ul>
-
-                <button class="button-choose pure-button"></button>
+                <img src="assets/img/switch.png" id="switch">
             </div>
         </div>
-    </div> <!-- end pricing-tables -->
+    </div>
+</div> 
+
+
+
+
+
+
+
+
+
+
 
     <div class="information pure-g">
         <div class="pure-u-1 pure-u-md-1-2">
