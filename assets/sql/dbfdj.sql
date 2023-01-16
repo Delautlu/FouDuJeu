@@ -46,7 +46,8 @@ INSERT INTO plateforme (id_plateforme, nom_plateforme) VALUES
 (9, 'PC PS5 XBOX Series X'),
 (10, 'PC SWITCH SMARTPHONE'),
 (11, 'PC PS4'),
-(12, 'PC SMARTPHONE')
+(12, 'PC SMARTPHONE'),
+(13, 'SWITCH PS5 XBOX ')
 
 INSERT INTO createur (id_crea, nom_crea) VALUES
 (1, 'Bandaï Nemco'), 
@@ -99,7 +100,7 @@ INSERT INTO jeux (id_jeux, nom_jeux, id_plateforme, id_genre, id_crea) VALUES
 (19, 'Medal Of Honor', '9', '2','2'),
 (20, 'It Takes To', '9', '1','2'),
 
-(21, 'Spatoon 3', '6', '2', '3'),
+(21, 'Splatoon 3', '6', '2', '3'),
 (22, 'The Legend of Zelda : Tears of the Kingdom', '6', '13', '3'),
 (23, 'Kirbys s Return to Dream Land Deluxe', '6', '1', '3'),
 (24, 'Animal Crossing: New Horizons', '6', '10', '3'),
