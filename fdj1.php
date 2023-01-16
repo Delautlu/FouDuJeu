@@ -6,7 +6,7 @@
 <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="menu">
         <li><a href="#" class="poli">Accueil</a></li>
-        <li><a href="#" class="poli">Contact</a></li>
+        <li><a href="contact.php" class="poli">Contact</a></li>
     </ul>
 </div>
 </nav>
