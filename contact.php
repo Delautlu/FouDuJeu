@@ -1,8 +1,8 @@
 <?php include("head.php") ?>
 
-
+<div class="formu">
 <form action="" method="post">
-
+    
         <label for="nom">Votre nom*:</label>
         <input type="text" name="nom" id="nom" >
             <br>
@@ -21,8 +21,7 @@
         <label for="sujet">Sujet*</label>
         <select id="sujet">
             <option value="Veuillez sélectionner un sujet">Veuillez sélectionner un sujet</option>
-            <option value="Mes commandes">Mes commandes</option>
-            <option value="Question sur un produit">Question sur un produit</option>
+            <option value="Mes commandes">Mon avis sur un jeu</option>
             <option value="Réclamation">Réclamation</option>
             <option value="Autres">Autres</option>
         </select>
@@ -37,7 +36,8 @@
             
         <input type="submit" name="but1" id="bt1" value="Envoyer">
         <input type="reset" name="but2" id="bt2" value="annuler">
-
-    </form>
+   
+</form>
+</div>
 
 <?php include("footer.php") ?>

@@ -1,6 +1,6 @@
 <?php include("head.php");?>
 
-<body>
+
 
 <nav class="men">
 <div class="collapse navbar-collapse" id="collapsibleNavbar">

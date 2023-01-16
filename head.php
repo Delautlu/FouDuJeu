@@ -13,9 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
 
-
 </head>
-
+<body>
+<header>
 <div class="banner">
     <h1 class="banner-head">
     <video autoplay="true" loop  width="600">
@@ -23,3 +23,5 @@
     </video>
     </h1>
 </div> 
+</header>
+

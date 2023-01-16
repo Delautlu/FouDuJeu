@@ -107,7 +107,7 @@ INSERT INTO jeux (id_jeux, nom_jeux, id_plateforme, id_genre, id_crea) VALUES
 (26, 'Pokémon Violet', '6', '13', '3'),
 (27, 'Super Smash Bros. Ultimate', '6', '11', '3'),
 (28, 'Star Wars Hunters', '6', '12', '3'),
-(29, 'Front mission 2', '6', '12', '3'),
+(29, 'Front mission 2 Remake', '6', '12', '3'),
 (30, 'Minecraft Legends', '6', '12', '3'),
 
 (31, 'Skull and Bones', '6', '2','4'),
