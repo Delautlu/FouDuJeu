@@ -57,7 +57,7 @@ INSERT INTO createur (id_crea, nom_crea) VALUES
 (4, 'Ubisoft'),
 (5, 'Sony Interactive Entertainment'),
 (6, 'Activision Blizzard'),
-(7, 'Epic Games'),
+(7, 'Epic Games - Riot Games'),
 (8, 'Gameloft'),
 (9, 'Square Enix'),
 (10, 'ZeroGamesStudios')
