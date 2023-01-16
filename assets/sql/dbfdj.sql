@@ -3,7 +3,6 @@ DROP DATABASE IF EXISTS fdj;
 CREATE DATABASE fdj; 
 USE fdj;
 
-
 CREATE TABLE plateforme(
 	id_plateforme INT (5),
     nom_plateforme VARCHAR(25),
@@ -35,7 +34,6 @@ CREATE TABLE jeux (
 	PRIMARY KEY (id_jeux)
 );
 
-
 INSERT INTO plateforme (id_plateforme, nom_plateforme) VALUES
 (1, 'PC'),
 (2, 'PS5'),
@@ -57,7 +55,7 @@ INSERT INTO createur (id_crea, nom_crea) VALUES
 (4, 'Ubisoft'),
 (5, 'Sony Interactive Entertainment'),
 (6, 'Activision Blizzard'),
-(7, 'Epic Games'),
+(7, 'Epic Games - Riot Games'),
 (8, 'Gameloft'),
 (9, 'Square Enix'),
 (10, 'ZeroGamesStudios')
@@ -78,7 +76,7 @@ INSERT INTO genre (id_genre, nom_genre) VALUES
 (13, 'Aventure')
 
 
-INSERT INTO jeux (id_jeux, nom_jeux, id_plateforme, genre_jeux, id_crea) VALUES
+INSERT INTO jeux (id_jeux, nom_jeux, id_plateforme, id_genre, id_crea) VALUES
 (1, 'Synduality', '1', '5', '1'),
 (2, 'Armored Core VI Fires of Rubicon', '1', '2', '1'),
 (3, 'DC Justice League Chaos Cosmique', '12', '11', '1'),
@@ -134,9 +132,6 @@ INSERT INTO jeux (id_jeux, nom_jeux, id_plateforme, genre_jeux, id_crea) VALUES
 (49, 'Death Stranding', '6', '2','5'),
 (50, 'Horizon Call of the Mountain', '6', '2','5'),
 
-
-
-
 (51, 'Diablo IV', '6', '2','6'),
 (52, 'Crash Team Rumble', '6', '2','6'),
 (53, 'Call Of Duty Warzone 2.0', '6', '2','6'),
@@ -147,9 +142,6 @@ INSERT INTO jeux (id_jeux, nom_jeux, id_plateforme, genre_jeux, id_crea) VALUES
 (58, 'Destiny 2: La Reine Sorcière', '6', '2','6'),
 (59, 'Overwatch 2', '6', '2','6'),
 (60, 'Diablo Immortal', '6', '2','6'),
-
-
-
 
 (61, 'Fortnite', '6', '2','7'),
 (62, 'Unreal Engine', '6', '2','7'),
@@ -186,7 +178,7 @@ INSERT INTO jeux (id_jeux, nom_jeux, id_plateforme, genre_jeux, id_crea) VALUES
 (90, 'The Diofield Chronicle', '6', '2','9'),
 
 (91, 'Super World War', '6', '2','10'),
-(92, 'Planet Go', '6', '2','10')
+(92, 'Planet Go', '6', '2','10'),
 (93, 'Fernbus Coach Simulator', '6', '2','10'),
 (94, 'Hot Lap Racing', '6', '2','10'),
 (95, 'Hell Diggers (The Sandbox)', '6', '2','10'),
