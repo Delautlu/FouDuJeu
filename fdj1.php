@@ -26,7 +26,7 @@
         <div class="pure-u-1 pure-u-md-1-3">
             <div class="pricing-table pricing-table-free">
                 <div class="pricing-table-header">
-                    <h2>Jeux classés par plateforme</h2>
+                    <h2>xxxxx</h2>
 
                     <span class="pricing-table-price">
                     <span></span>
@@ -39,7 +39,7 @@
         <div class="pure-u-1 pure-u-md-1-3">
             <div class="pricing-table pricing-table-biz pricing-table-selected">
                 <div class="pricing-table-header">
-                    <h2>Jeux classés par créateurs</h2>
+                    <h2>xxxxx</h2>
 
                     <span class="pricing-table-price">
                         <span></span>
@@ -57,7 +57,7 @@
         <div class="pure-u-1 pure-u-md-1-3">
             <div class="pricing-table pricing-table-enterprise">
                 <div class="pricing-table-header">
-                    <h2>Jeux classés par genre</h2>
+                    <h2>xxxxx</h2>
 
                     <span class="pricing-table-price">
                          <span></span>
