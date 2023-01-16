@@ -2,15 +2,6 @@
 
 <body>
 
-<div class="banner">
-    <h1 class="banner-head">
-    <video autoplay="true" loop  width="600">
-        <source src="assets/img/Foudejeux.mp4"/>
-    </video>
-    </h1>
-</div> 
-
-
 <nav class="men">
 <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="menu">
@@ -35,7 +26,7 @@
         <div class="pure-u-1 pure-u-md-1-3">
             <div class="pricing-table pricing-table-free">
                 <div class="pricing-table-header">
-                    <h2>Jeux Playstation/ Xbox</h2>   
+                    <h2>Jeux Playstation / Xbox</h2>   
                 </div>
                 <img src="assets/img/manettes2.png" id="ps4">
             </div>
@@ -52,15 +43,7 @@
     </div>
 </div> 
 
-
-
-
-
-
-
-
-
-
+<!--  -->
 
     <div class="information pure-g">
         <div class="pure-u-1 pure-u-md-1-2">

@@ -78,13 +78,13 @@ li{
 }
 
 .pricing-table {
-    border: 1px solid #ddd;
+    border: 1px solid black;
     margin: 0 0.5em 2em;
     padding: 0 0 3em;
 }
 
 .pricing-table-free {
-    background: black; 
+    background: rgb(0, 0, 0); 
 }
 
 #pcgamer {
@@ -109,8 +109,10 @@ li{
 }
 
 .pricing-table-header {
-    background: #111;
+    background: rgb(119, 181, 254);
     color: #fff;
+    font-family: 'Architects Daughter', cursive;
+
 }
 .pricing-table-header h2 {
     margin: 0;
@@ -125,7 +127,7 @@ li{
     font-size: 0.2em;
     padding-bottom: 2em;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(35, 96, 228, 0.5);
     *color: #fff;
 }
 
