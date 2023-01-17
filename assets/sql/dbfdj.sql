@@ -141,11 +141,9 @@ INSERT INTO jeux (id_jeux, nom_jeux, id_plateforme, id_genre, id_crea) VALUES
 (56, 'Call of Duty Vanguard', '6', '2','6'),
 (57, 'World of Warcraft Classic', '6', '2','6'),
 (58, 'Destiny 2: La Reine Sorcière', '6', '2','6'),
-(59, 'Overwatch 2', '6', '2','6'),
 (60, 'Diablo Immortal', '6', '2','6'),
 
 (61, 'Fortnite', '6', '2','7'),
-(62, 'Unreal Engine', '6', '2','7'),
 (63, 'Rocket League', '6', '2','7'),
 (64, 'Grand Theft Auto V', '6', '2','7'),
 (65, 'Genshin Impact', '6', '2','7'),

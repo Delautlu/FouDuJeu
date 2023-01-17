@@ -12,12 +12,11 @@ $requete = $db->prepare("SELECT * FROM jeux INNER JOIN createur  ON jeux.id_crea
     INNER JOIN genre ON jeux.id_genre = genre.id_genre
     INNER JOIN plateforme ON jeux.id_plateforme = plateforme.id_plateforme");
 
-
     // on ajoute l'ID du disque passé dans l'URL en paramètre et on exécute :
     $requete->execute(array($id));
 
     // on récupère le 1e (et seul) résultat :
-    $myArtist = $requete->fetch(PDO::FETCH_OBJ);
+    $myjeux = $requete->fetch(PDO::FETCH_OBJ);
 
     // on clôt la requête en BDD
     $requete->closeCursor();
