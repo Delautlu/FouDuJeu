@@ -19,16 +19,15 @@
                 <div class="pricing-table-header">
                     <h2>Jeux Pc</h2>
                 </div>
-                <img src="assets/img/pcgamer.jpg" id="pcgamer">
+                    <a href="pc.php"><img src="assets/img/pcgamer.jpg" id="pcgamer"></a>
             </div>
         </div>
-
         <div class="pure-u-1 pure-u-md-1-3">
             <div class="pricing-table pricing-table-free">
                 <div class="pricing-table-header">
                     <h2>Jeux Playstation / Xbox</h2>   
                 </div>
-                <img src="assets/img/manettes2.png" id="ps4">
+                    <a href="playsT.php"><img src="assets/img/manettes2.png" id="ps4"></a>
             </div>
         </div>
 
@@ -37,13 +36,20 @@
                 <div class="pricing-table-header">
                     <h2>Jeux Switch</h2>   
                 </div>
-                <img src="assets/img/switch.png" id="switch">
+                    <a href="switch.php"><img src="assets/img/switch.png" id="switch"></a>
             </div>
         </div>
     </div>
 </div> 
 
-<!--  -->
+
+
+
+
+
+
+
+ <!-- RESTE A FAIRE ---------------------------- -->
 
     <div class="information pure-g">
         <div class="pure-u-1 pure-u-md-1-2">
@@ -92,6 +98,5 @@
 </div>
 
 
-
-</body>
-</html>
+<?php include("footer.php");?>
+<?php

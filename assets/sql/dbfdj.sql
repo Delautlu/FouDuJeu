@@ -27,6 +27,7 @@ CREATE TABLE jeux (
     id_plateforme INT(5),
     id_genre INT(5),
     id_crea INT(5),
+	picture_jeux VARCHAR(100)
     
     FOREIGN KEY (id_crea) REFERENCES createur (id_crea),
     FOREIGN KEY (id_plateforme) REFERENCES plateforme (id_plateforme),
@@ -77,16 +78,16 @@ INSERT INTO genre (id_genre, nom_genre) VALUES
 (13, 'Aventure')
 
 
-INSERT INTO jeux (id_jeux, nom_jeux, id_plateforme, id_genre, id_crea) VALUES
-(1, 'Synduality', '1', '5', '1'),
-(2, 'Armored Core VI Fires of Rubicon', '1', '2', '1'),
-(3, 'DC Justice League Chaos Cosmique', '12', '11', '1'),
-(4, 'DreamWorks dragons Legendes des neuf Royaumes', '12', '11', '1'),
-(5, 'Elden Ring', '7', '5', '1'),
-(6, 'Cyberpunk 2077', '7', '5', '1'),
-(7, 'One Piece Odyssey', '7', '5', '1'),
-(8, 'Dragon Ball the breakers', '7', '5', '1'),
-(9, 'Digimon Survive', '7', '5', '1'),
+INSERT INTO jeux (id_jeux, nom_jeux, id_plateforme, id_genre, id_crea, picture_jeux) VALUES
+(1, 'Synduality', '1', '5', '1', 'synduality.jpeg'),
+(2, 'Armored Core VI Fires of Rubicon', '1', '2', '1', 'armored.jpeg'),
+(3, 'DC Justice League Chaos Cosmique', '12', '11', '1', 'dc.jpeg'),
+(4, 'DreamWorks dragons Legendes des neuf Royaumes', '12', '11', '1', 'dragon.jpeg'),
+(5, 'Elden Ring', '7', '5', '1', 'elden.jpeg'),
+(6, 'Cyberpunk 2077', '7', '5', '1', 'cyber.jpeg'),
+(7, 'One Piece Odyssey', '7', '5', '1', 'oneP.jpeg'),
+(8, 'Dragon Ball the breakers', '7', '5', '1','dragonB.jpeg'),
+(9, 'Digimon Survive', '7', '5', '1', 'digimon.jpeg'),
 (10, 'Peppa Pig aventures autour du monde', '7', '5', '1'),
 
 (11, 'FIFA23', '9', '12','2'),
