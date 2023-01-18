@@ -104,6 +104,12 @@ li{
     width: 60%;
     margin-bottom: 3.125em;
 }
+
+#smartphone {
+    height: 400px;
+    width: 60%;
+    margin-bottom: 3.125em;
+}
 .pricing-table-biz .pricing-table-header {
     background: black;
 }

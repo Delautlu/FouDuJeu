@@ -1,17 +1,5 @@
 <?php include("head.php");?>
 
-
-
-<nav class="men">
-<div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="menu">
-        <li><a href="#" class="poli">Accueil</a></li>
-        <li><a href="contact.php" class="poli">Contact</a></li>
-    </ul>
-</div>
-</nav>
-
-
 <div class="l-content">
     <div class="pricing-tables pure-g">
         <div class="pure-u-1 pure-u-md-1-3">
@@ -37,6 +25,15 @@
                     <h2>Jeux Switch</h2>   
                 </div>
                     <a href="switch.php"><img src="assets/img/switch.png" id="switch"></a>
+            </div>
+        </div>
+
+        <div class="pure-u-1 pure-u-md-1-3">
+            <div class="pricing-table pricing-table-free">
+                <div class="pricing-table-header">
+                    <h2>Jeux Smartphones</h2>   
+                </div>
+                    <a href="smartphone.php"><img src="assets/img/smartphone.jpeg" id="smartphone"></a>
             </div>
         </div>
     </div>

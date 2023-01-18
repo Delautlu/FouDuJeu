@@ -9,17 +9,16 @@
     INNER JOIN createur  ON jeux.id_crea = createur.id_crea
     INNER JOIN genre ON jeux.id_genre = genre.id_genre
     INNER JOIN plateforme ON jeux.id_plateforme = plateforme.id_plateforme 
-    WHERE jeux.id_plateforme = 2 and jeux.id_plateforme = 3 and jeux.id_plateforme = 4 and jeux.id_plateforme = 5");
+    WHERE jeux.id_plateforme = 7 ");
     
-    $jeux = $db->query("SELECT COUNT(id_jeux) AS total FROM jeux WHERE jeux.id_plateforme = 2 and jeux.id_plateforme = 3 and jeux.id_plateforme = 4 and jeux.id_plateforme = 5");
+    $jeux = $db->query("SELECT COUNT(id_jeux) AS total FROM jeux WHERE id_plateforme = 7");
     // on récupère tous les résultats trouvés dans une variable
     $calcul = $jeux->fetch();
     $nb = $calcul['total'];
 ?>
-
 <body>
 <div class="container-fluid">
-    <h2 class="font-weight-bold">Liste des jeux consoles (<?= $nb ?>)</h2>  
+    <h2 class="font-weight-bold">Liste des jeux smartphones (<?= $nb ?>)</h2>  
     <div class="row">
         <?php foreach ($jeux as $plateforme): ?>
         <div class="card col-lg-5 col-12 m-4" style="width:18rem;"id="card">
