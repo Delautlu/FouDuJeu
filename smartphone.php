@@ -26,9 +26,9 @@
                 <img src="assets/img/<?= $plateforme->picture_jeux ?>" style="max-width:100%;height:auto"  class="card-img-top col-6 w-25 h-100" id="imgcard" alt="mage">
                 <div class="card-body col-6">
                     <p class="text-right font-weight-bold"><?= $plateforme->nom_jeux ?>
-                    <p class="text-right font-weight-bold"><?= $plateforme->nom_genre ?>
-                    <p class="text-right">Label : <?= $plateforme->nom_crea ?>
-                    <p class="text-right">Year : <?= $plateforme->nom_plateforme ?>
+                    <p class="text-right">Genre : <?= $plateforme->nom_genre ?>
+                    <p class="text-right">Créa : <?= $plateforme->nom_crea ?>
+                    <p class="text-right">Plateforme : <?= $plateforme->nom_plateforme ?>
                 </div>
             </div>
         </div>

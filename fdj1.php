@@ -7,7 +7,7 @@
                 <div class="pricing-table-header">
                     <h2>Jeux Pc</h2>
                 </div>
-                    <a href="pc.php"><img src="assets/img/pcgamer.jpg" id="pcgamer"></a>
+                <a href="pc.php"><img src="assets/img/pcgamer.jpg" id="pcgamer"></a>
             </div>
         </div>
         <div class="pure-u-1 pure-u-md-1-3">
@@ -15,7 +15,7 @@
                 <div class="pricing-table-header">
                     <h2>Jeux Playstation / Xbox</h2>   
                 </div>
-                    <a href="playsT.php"><img src="assets/img/manettes2.png" id="ps4"></a>
+                <a href="playsT.php"><img src="assets/img/manettes2.png" id="ps4"></a>
             </div>
         </div>
 
@@ -24,7 +24,7 @@
                 <div class="pricing-table-header">
                     <h2>Jeux Switch</h2>   
                 </div>
-                    <a href="switch.php"><img src="assets/img/switch.png" id="switch"></a>
+                <a href="switch.php"><img src="assets/img/switch.png" id="switch"></a>
             </div>
         </div>
 
@@ -33,7 +33,7 @@
                 <div class="pricing-table-header">
                     <h2>Jeux Smartphones</h2>   
                 </div>
-                    <a href="smartphone.php"><img src="assets/img/smartphone.jpeg" id="smartphone"></a>
+                <a href="smartphone.php"><img src="assets/img/smartphone.jpeg" id="smartphone"></a>
             </div>
         </div>
     </div>
@@ -43,10 +43,7 @@
 
 
 
-
-
-
- <!-- RESTE A FAIRE ---------------------------- -->
+<!-- RESTE A FAIRE ---------------------------- -->
 
     <div class="information pure-g">
         <div class="pure-u-1 pure-u-md-1-2">
@@ -63,7 +60,6 @@
                 <h3 class="information-head"></h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamco laboris nisi ut aliquip ex ea commodo
-                   
                 </p>
             </div>
         </div>
@@ -96,4 +92,3 @@
 
 
 <?php include("footer.php");?>
-<?php
