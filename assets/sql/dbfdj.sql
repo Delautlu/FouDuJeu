@@ -28,7 +28,6 @@ CREATE TABLE jeux (
     id_genre INT(5),
     id_crea INT(5),
 	picture_jeux VARCHAR(100),
-	
 	PRIMARY KEY (id_jeux),
     FOREIGN KEY (id_crea) REFERENCES createur (id_crea),
     FOREIGN KEY (id_plateforme) REFERENCES plateforme (id_plateforme),
