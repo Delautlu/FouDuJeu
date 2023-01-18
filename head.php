@@ -25,3 +25,11 @@
 </div> 
 </header>
 
+<nav class="men">
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="menu">
+        <li><a href="fdj1.php" class="poli">Accueil</a></li>
+        <li><a href="contact.php" class="poli">Contact</a></li>
+    </ul>
+</div>
+</nav>

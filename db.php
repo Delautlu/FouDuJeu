@@ -4,7 +4,7 @@
 function ConnexionJeu() {
     try 
     {
-        $connexion = new PDO('mysql:host=localhost;charset=utf8;dbname=fdj', 'admin', 'Notebook*2007');
+        $connexion = new PDO('mysql:host=localhost;charset=utf8;dbname=fdj', 'admin', 'azerty');
         $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         return $connexion;
 
