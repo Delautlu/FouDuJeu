@@ -1,4 +1,21 @@
-<?php include("head.php");?>
+<?php
+    session_start();
+    if($_SESSION["autoriser"]!="oui"){
+        header("location:connexion.php");
+        exit();
+    }
+    if (date("H") < 18) {
+        $bienvenue = "Bonjour et bienvenue " .
+            $_SESSION["prenomNom"] .
+            " dans votre espace personnel";
+    } else {
+        $bienvenue = "Bonsoir et bienvenue " .
+            $_SESSION["prenomNom"] .
+            " dans votre espace personnel";
+    }
+?> 
+
+<?php include("head.php"); ?>
 
 <div class="l-content">
     <div class="pricing-tables pure-g">
