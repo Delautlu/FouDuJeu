@@ -1,4 +1,5 @@
 <?php
+session_start();
     @$login=$_POST["login"];
     @$pass=md5($_POST["pass"]);
     @$valider=$_POST["valider"];

@@ -1,5 +1,5 @@
 <?php
-    session_start();
+session_start();
     if($_SESSION["autoriser"]!="oui"){
         header("location:connexion.php");
         exit();

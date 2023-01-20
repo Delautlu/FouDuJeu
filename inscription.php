@@ -46,7 +46,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
 
 </head>
-
+<body>
     <h1>Inscription</h1>
     <div class="erreur"><?php echo $erreur ?></div>
     <form name="fo" method="post" action="">
@@ -57,5 +57,6 @@
         <input type="password" name="repass" placeholder="Confirmer Mot de passe" /><br />
         <input type="submit" name="valider" value="S'authentifier" />
     </form>
+</body>
     
 <?php include("footer.php"); ?>
