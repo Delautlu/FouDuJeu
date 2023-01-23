@@ -20,7 +20,7 @@
 <div>
     
         <h2>Liste des jeux pc (<?= $nb ?>)</h2>  
-
+        <!-- <h1 style="color:red">Lucas Lagant meilleur joueur de shell Shock</h1> -->
         <div>
             <?php foreach ($tableau as $pcSup): ?>
             <div>
