@@ -5,12 +5,15 @@
     require "db.php";
     $db = ConnexionJeu();
 
-    $myJeux = $db->query("SELECT * FROM jeux 
+    $myJeux = $db->query("SELECT picture_jeux, nom_jeux, nom_genre, nom_crea, nom_plateforme FROM jeux 
     INNER JOIN createur  ON jeux.id_crea = createur.id_crea
     INNER JOIN genre ON jeux.id_genre = genre.id_genre
     INNER JOIN plateforme ON jeux.id_plateforme = plateforme.id_plateforme 
     WHERE jeux.id_plateforme = 6 ");
-    
+    $tableau = $myJeux->fetchAll(PDO::FETCH_OBJ);
+    // on clôt la requête en BDD
+    $myJeux->closeCursor();
+
     $nbjeux = $db->query("SELECT COUNT(id_jeux) AS total FROM jeux WHERE id_plateforme = 6");
     // on récupère tous les résultats trouvés dans une variable
     $calcul = $nbjeux->fetch();
@@ -21,7 +24,7 @@
 <div>
     <h2>Liste des jeux Switch (<?= $nb ?>)</h2>  
     <div>
-        <?php foreach ($myJeux as $switch): ?>
+        <?php foreach ($tableau as $switch): ?>
         <div>
             <div>
                 <img src="assets/img/<?= $switch->picture_jeux ?>" id="imgcard" alt="<?= $switch->picture_jeux ?>">

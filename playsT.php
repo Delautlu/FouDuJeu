@@ -5,7 +5,7 @@
     require "db.php";
     $db = ConnexionJeu();
 
-    $myJeux = $db->query("SELECT * FROM jeux 
+    $myJeux = $db->query("SELECT picture_jeux, nom_jeux, nom_genre, nom_crea, nom_plateforme FROM jeux 
     INNER JOIN createur  ON jeux.id_crea = createur.id_crea
     INNER JOIN genre ON jeux.id_genre = genre.id_genre
     INNER JOIN plateforme ON jeux.id_plateforme = plateforme.id_plateforme 
@@ -13,7 +13,9 @@
         or jeux.id_plateforme = 3 
         or jeux.id_plateforme = 4 
         or jeux.id_plateforme = 5");
-
+    $tableau = $myJeux->fetchAll(PDO::FETCH_OBJ);
+    // on clôt la requête en BDD
+    $myJeux->closeCursor();
         
     
     $nbjeux = $db->query("SELECT COUNT(id_jeux) AS total FROM jeux WHERE jeux.id_plateforme = 2 
@@ -29,7 +31,7 @@
 <div>
     <h2>Liste des jeux consoles (<?= $nb ?>)</h2>  
     <div>
-        <?php foreach ($myJeux as $play): ?>
+        <?php foreach ($tableau as $play): ?>
         <div>
             <div>
                 <img src="assets/img/<?= $play->picture_jeux ?>" id="imgcard" alt="<?= $play->picture_jeux ?>">
