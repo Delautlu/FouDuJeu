@@ -2,8 +2,6 @@
 body {
     color: #526066;
     background-color: black;
-    margin: auto;
-    padding: 5%;
 }
 
 h2,
@@ -100,8 +98,9 @@ li{
     width: 940px;
     height: 300px;
     grid-template-columns: 120px 120px;
-    align-items: start;
-    justify-content: space-around;
+    padding-left: 20%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .corps{
