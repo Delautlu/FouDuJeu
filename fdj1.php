@@ -50,7 +50,7 @@ session_start();
                 <div class="pricing-table-header">
                     <h2>Jeux Smartphones</h2>   
                 </div>
-                <a href="smartphone.php"><img src="assets/img/smartphone.jpeg" id="smartphone"></a>
+                <a href="smartphone.php"><img src="assets/img/smartphone.jpg" id="smartphone"></a>
             </div>
         </div>
     </div>

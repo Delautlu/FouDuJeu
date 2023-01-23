@@ -3,9 +3,7 @@ body {
     color: #526066;
     background-color: black;
 }
-#deco {
-    
-}
+
 h2,
 h3 {
     letter-spacing: 0.25em;
@@ -103,13 +101,13 @@ li{
 
 #switch {
     height: 400px;
-    width: 60%;
+    width: 100%;
     margin-bottom: 3.125em;
 }
 
 #smartphone {
     height: 400px;
-    width: 60%;
+    width: 100%;
     margin-bottom: 3.125em;
 }
 .pricing-table-biz .pricing-table-header {
