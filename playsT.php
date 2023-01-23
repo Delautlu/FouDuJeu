@@ -13,6 +13,8 @@
         or jeux.id_plateforme = 3 
         or jeux.id_plateforme = 4 
         or jeux.id_plateforme = 5");
+
+        
     
     $nbjeux = $db->query("SELECT COUNT(id_jeux) AS total FROM jeux WHERE jeux.id_plateforme = 2 
                                                                     or jeux.id_plateforme = 3 
