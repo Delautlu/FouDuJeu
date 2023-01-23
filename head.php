@@ -14,6 +14,7 @@
 
 </head>
 <body onLoad="document.fo.login.focus()">
+<a href="deconnexion.php" class="poli" id="deco">Se deconnecter</a>
 <header>
 <div class="banner">
     <h1 class="banner-head">
@@ -28,7 +29,6 @@
 <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="menu">
         <li><a href="fdj1.php" class="poli">Accueil</a></li>
-        <li><a href="deconnexion.php" class="poli">Se déconnecter</a></li>
         <li><a href="contact.php" class="poli">Contact</a></li>
     </ul>
 </div>

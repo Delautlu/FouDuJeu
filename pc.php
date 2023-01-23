@@ -17,7 +17,7 @@
     $calcul = $nbjeux->fetch();
     $nb = $calcul['total'];
 ?>
-<div class="container-fluid">
+<div>
     
         <h2>Liste des jeux pc (<?= $nb ?>)</h2>  
 
