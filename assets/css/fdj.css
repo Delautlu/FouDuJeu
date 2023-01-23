@@ -2,6 +2,8 @@
 body {
     color: #526066;
     background-color: black;
+    margin: auto;
+    padding: 5%;
 }
 
 h2,
@@ -67,6 +69,12 @@ li{
     font-weight: 500;
     text-shadow: 0 1px 1px black;
 }
+
+.titre{
+    text-align: center;
+    color: #ddd;
+    font : bold
+}
 .pricing-tables,
 .information {
     max-width: 980px;
@@ -85,6 +93,29 @@ li{
 
 .pricing-table-free {
     background: rgb(0, 0, 0); 
+}
+
+.card {
+    display: grid;
+    width: 940px;
+    height: 300px;
+    grid-template-columns: 120px 120px;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.corps{
+    
+    color: #ddd;
+    margin-left: 60%;
+    margin-right: auto;
+} 
+
+.texte {
+    width: 220%;
+    margin: 10%;
+    padding: 50%;
+
 }
 
 #pcgamer {
@@ -165,6 +196,7 @@ li{
     font-weight: 500;
 }
 
+
 .footer {
     background: black;
     color:white;
@@ -179,12 +211,6 @@ li{
     font-size: 4em;
 }}
 
-.pricing-table {
-    margin-bottom: 0;
-    }
-
-
-
 .formu {
     background: rgb(119, 181, 254);
     color: #fff;
@@ -194,20 +220,6 @@ li{
     padding-left: 20%;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (min-width: 480px) {

@@ -20,22 +20,20 @@
 ?>
 <body>
 <div>
-    <h2>Liste des jeux smartphones (<?= $nb ?>)</h2>  
-    <div>
-        <?php foreach ($tableau as $smart): ?>
-        <div>
-            <div>
-                <img src="assets/img/<?= $smart->picture_jeux ?>" id="imgcard" alt="<?= $smart->picture_jeux ?>">
-                <div>
-                    <p>Titre : <?= $smart->nom_jeux ?>
-                    <p>Genre : <?= $smart->nom_genre ?>
-                    <p>Créa : <?= $smart->nom_crea ?>
-                    <p>Plateforme : <?= $smart->nom_plateforme ?>
-                </div>
-            </div>
-        </div>
-        <?php endforeach; ?>
-    </div>
+    <h2 class="titre">Liste des jeux smartphones (<?= $nb ?>)</h2>  
+    <div class="card">    
+            <?php foreach ($tableau as $pcSup): ?>      
+                    <div>
+                        <div class="card-image"><img src="assets/img/<?= $pcSup->picture_jeux; ?>" id="imgcard" alt="<?= $pcSup->picture_jeux; ?>"></div>
+                            <div class="corps">
+                                <p>Titre : <?= $pcSup->nom_jeux; ?>
+                                <p>Genre : <?= $pcSup->nom_genre; ?>
+                                <p>Créateur : <?= $pcSup->nom_crea; ?>
+                                <p>Plateforme : <?= $pcSup->nom_plateforme; ?>
+                            </div>
+                    </div>
+            <?php endforeach; ?>  
+    </div> 
 </div>
 
 <?php include("footer.php"); ?>

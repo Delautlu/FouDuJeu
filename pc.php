@@ -17,27 +17,22 @@
     $calcul = $nbjeux->fetch();
     $nb = $calcul['total'];
 ?>
-<div>
-    
-        <h2>Liste des jeux pc (<?= $nb ?>)</h2>  
-        <!-- <h1 style="color:red">Lucas Lagant meilleur joueur de shell Shock</h1> -->
-        <div>
-            <?php foreach ($tableau as $pcSup): ?>
-            <div>
-                <div>
-                    <img src="assets/img/<?= $pcSup->picture_jeux; ?>" id="imgcard" alt="<?= $pcSup->picture_jeux; ?>">
+
+    <h2 class="titre">Liste des jeux pc (<?= $nb ?>)</h2>  
+
+<div class="card">    
+            <?php foreach ($tableau as $pcSup): ?>      
                     <div>
-                        <p>Titre : <?= $pcSup->nom_jeux; ?>
-                        <p>Genre : <?= $pcSup->nom_genre; ?>
-                        <p>Créa : <?= $pcSup->nom_crea; ?>
-                        <p>Plateforme : <?= $pcSup->nom_plateforme; ?>
+                        <div class="card-image"><img src="assets/img/<?= $pcSup->picture_jeux; ?>" id="imgcard" alt="<?= $pcSup->picture_jeux; ?>"></div>
+                            <div class="corps">
+                                <p class="texte">Titre : <?= $pcSup->nom_jeux; ?>
+                                <p class="texte">Genre : <?= $pcSup->nom_genre; ?>
+                                <p class="texte">Créateur : <?= $pcSup->nom_crea; ?>
+                                <p class="texte">Plateforme : <?= $pcSup->nom_plateforme; ?>
+                            </div>
                     </div>
-                </div>
-            </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
-</div>
+            <?php endforeach; ?>  
+</div> 
 
 
 <?php include("footer.php"); ?>

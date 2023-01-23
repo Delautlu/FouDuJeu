@@ -29,22 +29,20 @@
 
 <body>
 <div>
-    <h2>Liste des jeux consoles (<?= $nb ?>)</h2>  
-    <div>
-        <?php foreach ($tableau as $play): ?>
-        <div>
-            <div>
-                <img src="assets/img/<?= $play->picture_jeux ?>" id="imgcard" alt="<?= $play->picture_jeux ?>">
-                <div>
-                    <p>Titre : <?= $play->nom_jeux ?>
-                    <p>Genre : <?= $play->nom_genre ?>
-                    <p>Créa : <?= $play->nom_crea ?>
-                    <p>Plateforme : <?= $play->nom_plateforme ?>
-                </div>
-            </div>
-        </div>
-        <?php endforeach; ?>
-    </div>
+    <h2 class="titre">Liste des jeux consoles (<?= $nb ?>)</h2>  
+    <div class="card">    
+            <?php foreach ($tableau as $pcSup): ?>               
+                    <div>
+                        <div class="card-image"><img src="assets/img/<?= $pcSup->picture_jeux; ?>" id="imgcard" alt="<?= $pcSup->picture_jeux; ?>"></div>
+                            <div class="corps">
+                                <p>Titre : <?= $pcSup->nom_jeux; ?>
+                                <p>Genre : <?= $pcSup->nom_genre; ?>
+                                <p>Créateur : <?= $pcSup->nom_crea; ?>
+                                <p>Plateforme : <?= $pcSup->nom_plateforme; ?>
+                            </div>
+                    </div>
+            <?php endforeach; ?>  
+    </div> 
 </div>
 
 <?php include("footer.php"); ?>
