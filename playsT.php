@@ -27,7 +27,6 @@
     $nb = $calcul['total'];
 ?>
 
-<body>
 <div>
     <h2 class="titre">Liste des jeux consoles (<?= $nb ?>)</h2>  
     <div class="card">    
