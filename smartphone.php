@@ -26,10 +26,10 @@
                     <div>
                         <div class="card-image"><img src="assets/img/<?= $pcSup->picture_jeux; ?>" id="imgcard" alt="<?= $pcSup->picture_jeux; ?>"></div>
                             <div class="corps">
-                                <p>Titre : <?= $pcSup->nom_jeux; ?>
-                                <p>Genre : <?= $pcSup->nom_genre; ?>
-                                <p>Créateur : <?= $pcSup->nom_crea; ?>
-                                <p>Plateforme : <?= $pcSup->nom_plateforme; ?>
+                                <p class="texte">Titre : <?= $pcSup->nom_jeux; ?>
+                                <p class="texte">Genre : <?= $pcSup->nom_genre; ?>
+                                <p class="texte">Créateur : <?= $pcSup->nom_crea; ?>
+                                <p class="texte">Plateforme : <?= $pcSup->nom_plateforme; ?>
                             </div>
                     </div>
             <?php endforeach; ?>  
