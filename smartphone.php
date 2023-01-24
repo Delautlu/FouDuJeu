@@ -18,7 +18,6 @@
     $calcul = $nbjeux->fetch();
     $nb = $calcul['total'];
 ?>
-<body>
 <div>
     <h2 class="titre">Liste des jeux smartphones (<?= $nb ?>)</h2>  
     <div class="card">    
@@ -26,10 +25,10 @@
                     <div>
                         <div class="card-image"><img src="assets/img/<?= $pcSup->picture_jeux; ?>" id="imgcard" alt="<?= $pcSup->picture_jeux; ?>"></div>
                             <div class="corps">
-                                <p class="texte">Titre : <?= $pcSup->nom_jeux; ?>
-                                <p class="texte">Genre : <?= $pcSup->nom_genre; ?>
-                                <p class="texte">Créateur : <?= $pcSup->nom_crea; ?>
-                                <p class="texte">Plateforme : <?= $pcSup->nom_plateforme; ?>
+                                <p class="texte">Titre : <?= $pcSup->nom_jeux; ?><p>
+                                <p class="texte">Genre : <?= $pcSup->nom_genre; ?></p>
+                                <p class="texte">Créateur : <?= $pcSup->nom_crea; ?></p>
+                                <p class="texte">Plateforme : <?= $pcSup->nom_plateforme; ?><p>
                             </div>
                     </div>
             <?php endforeach; ?>  

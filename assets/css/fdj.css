@@ -96,12 +96,11 @@ li{
 .card {
     display: grid;
     width: 940px;
-    height: 300px;
     grid-template-columns: 120px 120px;
     padding-left: 20%;
     align-items: center;
     justify-content: space-between;
-}
+} 
 
 .corps{
     
@@ -146,7 +145,7 @@ li{
 
 .pricing-table-header {
     background: rgb(119, 181, 254);
-    color: #fff;
+    color: black;
     font-family: 'Architects Daughter', cursive;
     font-size: 120%;
 }
@@ -196,19 +195,23 @@ li{
 }
 
 
-.footer {
-    background: black;
-    color:white;
-    text-align: center;
-}
-.footer a {
-    color: black;
-}
 
-@media (min-width: 767px) {
-    .banner-head {
-    font-size: 4em;
-}}
+#lg{
+    width: 15%;
+    display: flex;
+    justify-content:left;
+} 
+
+.reseau{
+    background: rgb(119, 181, 254);
+    color:black;
+    text-align: center;
+    font-size: 120%;
+    display:inline-block;
+    justify-content: first baseline;
+} 
+
+
 
 .formu {
     background: rgb(119, 181, 254);
@@ -218,14 +221,4 @@ li{
     padding-top:10%;
     padding-left: 20%;
 
-}
-
-
-@media (min-width: 480px) {
-    .banner {
-    height: 400px;
-    }
-    .banner-head {
-    font-size: 3em;
-    }
 }

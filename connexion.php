@@ -47,4 +47,3 @@ session_start();
         <input type="submit" name="valider" value="S'authentifier" />
     </form>
 
-<?php include("footer.php"); ?>

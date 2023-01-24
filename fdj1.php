@@ -59,15 +59,4 @@ session_start();
 
 
 
-
-<!-- RESTE A FAIRE ---------------------------- -->
-
-
-
-<div class="footer l-box">
-    <p>corporis dignissimos reiciendis rerum quam, non, nihil soluta laudantium aspernatur assumenda quos nisi! Blanditiis, obcaecati ad.<a href=''></a>.
-    </p>
-</div>
-
-
-<?php include("footer.php");?>
+<?php include("footer.php"); ?>
