@@ -21,6 +21,6 @@
 
 </footer>
 
-<script src="assets/js/script.js"   jS>
+<!-- <script src="assets/js/script.js"   jS> -->
 </body> 
 <!-- </html> -->
