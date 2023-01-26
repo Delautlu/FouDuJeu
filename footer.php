@@ -7,7 +7,7 @@
     <div class="rese">
         <a href="#"><i class="uil uil-instagram"></i></a>
         <a href="#"><i class="uil uil-facebook-f"></i></a>
-        <a href="#" ><i class="uil uil-twitter-alt"></i></a>
+        <a href="#"><i class="uil uil-twitter-alt"></i></a>
         <a href="#"><i class="uil uil-whatsapp"></i></a>
         <a href="#"><i class="uil uil-github-alt"></i></a>
     </div>
@@ -21,6 +21,6 @@
 
 </footer>
 
-<!-- <script src=""   jS> -->
+<script src="assets/js/script.js"   jS>
 </body> 
 <!-- </html> -->
