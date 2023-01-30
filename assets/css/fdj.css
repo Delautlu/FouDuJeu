@@ -157,7 +157,7 @@ li{
     height: 400px;
     width: 100%;
     margin-bottom: 3.125em;
-} rgba(35, 96, 228, 0.5);
+};
 
 #switch {
     height: 400px;
@@ -170,10 +170,6 @@ li{
     width: 100%;
     margin-bottom: 3.125em;
 }
-.pricing-table-biz .pricing-table-header { rgba(35, 96, 228, 0.5);
-    background: black;
-}
-
 .pricing-table-header {
     background: rgb(119, 181, 254);
     color: black;
@@ -194,7 +190,6 @@ li{
     padding-bottom: 2em;
     font-weight: 400;
     color: rgba(35, 96, 228, 0.5);
-    *color: #fff; rgba(35, 96, 228, 0.5);
 }
 
 .pricing-table-list {
