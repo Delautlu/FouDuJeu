@@ -14,11 +14,22 @@ session_start();
             $_SESSION["prenomNom"]=ucfirst(strtolower($tab[0]["prenom"])).
             " ".strtoupper($tab[0]["nom"]);
             $_SESSION["autoriser"]="oui";
-            header("location:fdj1.php");
+            header("location:index.php");
         } else {
         $erreur = "Mauvais login ou mot de passe!";
         }
     }
+// // mise en place cookies //
+//     setcookie(
+//         'login',
+//         'nom',
+//         [
+//             'expires' => time() + 365*24*3600,
+//             'secure' => true,
+//             'httponly' => true,
+//         ]
+//     );
+//     echo $_COOKIE['login'];
 ?>
 
 <!DOCTYPE html>
@@ -35,7 +46,6 @@ session_start();
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-
 </head>
 
 <body onLoad="document.fo.login.focus()">
@@ -46,4 +56,12 @@ session_start();
         <input type="password" name="pass" placeholder="Mot de passe" /><br />
         <input type="submit" name="valider" value="S'authentifier" />
     </form>
+
+<div class = "cookies-eu-banner hidden"> 
+    En cliquant sur "OK", vous acceptez le stockage de cookies sur votre appareil pour 
+    améliorer la navigation sur le site, analyser l'utilisation du site et améliorer le marketing. <br>
+    <button> Accepter </button> 
+</div> 
+
+</body>
 

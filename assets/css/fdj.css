@@ -3,6 +3,37 @@ body {
     color: #526066;
     background-color: black;
 }
+.cookies-eu-banner {
+    background:rgb(119, 181, 254);
+    color: #fff;
+    padding: 6px;
+    font-size: 13px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
+.cookies-eu-banner button {
+    text-decoration: none;
+    background: #222;
+    color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 4px 7px;
+    margin: 2px 0;
+    font-size: 13px;
+    font-weight: 700;
+
+}
+.cookies-eu-banner button:hover {
+    background: #fff;
+    color: #222;
+}
+
+.hidden {
+    display: none;
+} 
 
 h2,
 h3 {
@@ -126,7 +157,7 @@ li{
     height: 400px;
     width: 100%;
     margin-bottom: 3.125em;
-}
+} rgba(35, 96, 228, 0.5);
 
 #switch {
     height: 400px;
@@ -139,7 +170,7 @@ li{
     width: 100%;
     margin-bottom: 3.125em;
 }
-.pricing-table-biz .pricing-table-header {
+.pricing-table-biz .pricing-table-header { rgba(35, 96, 228, 0.5);
     background: black;
 }
 
@@ -163,7 +194,7 @@ li{
     padding-bottom: 2em;
     font-weight: 400;
     color: rgba(35, 96, 228, 0.5);
-    *color: #fff;
+    *color: #fff; rgba(35, 96, 228, 0.5);
 }
 
 .pricing-table-list {
