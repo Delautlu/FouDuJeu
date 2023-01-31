@@ -30,7 +30,7 @@ const setCookie = function (login, name) {
     $cookiesBannerButton.addEventListener("click", () => {
         $cookiesBanner.remove();
     });
-})();
+});
 
 const $cookiesBanner = document.querySelector(".cookies-eu-banner");
 const $cookiesBannerButton = $cookiesBanner.querySelector("button");

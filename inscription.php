@@ -9,7 +9,6 @@
     if(isset($valider)){
         if(empty($nom)) $erreur="Nom laissé vide!";
         elseif(empty($prenom)) $erreur="Prénom laissé vide!";
-        elseif(empty($prenom)) $erreur="Prénom laissé vide!";
         elseif(empty($login)) $erreur="Login laissé vide!";
         elseif(empty($pass)) $erreur="Mot de passe laissé vide!";
         elseif($pass!=$repass) $erreur="Mots de passe non identiques!";
@@ -50,12 +49,13 @@
     <h1>Inscription</h1>
     <div class="erreur"><?php echo $erreur ?></div>
     <form name="fo" method="post" action="">
-        <input type="text" name="nom" placeholder="Nom" value="<?php echo $nom?>" /><br />
-        <input type="text" name="prenom" placeholder="Prénom" value="<?php echo $prenom?>" /><br />
-        <input type="text" name="login" placeholder="Login" value="<?php echo $login?>" /><br />
-        <input type="password" name="pass" placeholder="Mot de passe" /><br />
+        <span id="formerreur"></span>
+        <input type="text" name="nom" id="nom" placeholder="Nom" value="<?php echo $nom?>" /><br />
+        <input type="text" name="prenom" id="prenom" placeholder="Prénom" value="<?php echo $prenom?>" /><br />
+        <input type="text" name="login" id="login" placeholder="Login" value="<?php echo $login?>" /><br />
+        <input type="password" name="pass" id="pass" placeholder="Mot de passe" /><br />
         <input type="password" name="repass" placeholder="Confirmer Mot de passe" /><br />
-        <input type="submit" name="valider" value="S'authentifier" />
+        <input type="submit" name="valider" id="inscri" value="S'authentifier" />
     </form>
 </body>
     
