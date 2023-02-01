@@ -5,7 +5,7 @@ const getCookie = (name) => {
     return parts.length < 2 ? undefined : parts.pop().split(";").shift();
 };
 
-const setCookie = function (login, name) {
+const setCookie = function (name, value, expiryDays, domain, path, secure) {
     const exdate = new Date();
     exdate.setHours(
     exdate.getHours() +
