@@ -232,9 +232,10 @@ li{
     background: rgb(119, 181, 254);
     color:black;
     text-align: center;
-    font-size: 120%;
+    font-size: 100%;
     display:inline-block;
     justify-content: first baseline;
+    width: 100%;
 } 
 
 
